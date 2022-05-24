@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Calculator App',
-      home: const CalculatorScreen(),
+      home: CalculatorScreen(),
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: Colors.black
       ),
